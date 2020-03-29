@@ -55,7 +55,7 @@ function Symbol(x, y, speed, first, opacity) {
   };
 
   this.rain = function() {
-    this.y = (this.y >= height) ? 0 : this.y += this.speed-13;
+    this.y = (this.y >= height) ? 0 : this.y += this.speed-5;
   };
 
 }
